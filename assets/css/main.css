@@ -1,0 +1,22 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body.centered {
+  width: 980px;
+  margin: 20px auto; 
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.box-continous {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
