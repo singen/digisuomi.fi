@@ -1,0 +1,38 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body.centered {
+  max-width: 90%;
+  margin: 20px auto;
+  min-width: 300px;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.box-continous {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
+
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: 
+  hidden; 
+  max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
