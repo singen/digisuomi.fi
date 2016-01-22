@@ -16,7 +16,7 @@
 }
 
 .ingress {
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 .transition, p, ul li i:before, ul li i:after {
@@ -42,7 +42,7 @@ html {
   height: 100%;
   perspective: 900;
   overflow-y: scroll;
-  background-color: #0061af;
+  background-color: #e9edf0;
   color: #0f1317;
   font-family: 'Roboto', sans-serif;
 }
@@ -52,11 +52,11 @@ body {
   display: inline-block;
   position: relative;
   left: 50%;
-  margin: 90px 0;
+  margin: 50px 0;
   transform: translate(-50%, 0);
   box-shadow: 0 10px 0 0 #e02271 inset;
   background-color: #fefffa;
-  max-width: 80%;
+  max-width: 980px;
   padding: 30px;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 h1, h2 {
-  color: #e02271;
+  color: #0f1317;
 }
 
 h1 {
