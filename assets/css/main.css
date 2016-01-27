@@ -38,11 +38,11 @@
   margin: 30px 0;
 }
 
-.transition, p, ul li i:before, ul li i:after {
+.transition, p, ul.accordion li i:before, ul.accordion li i:after {
   transition: all 0.25s ease-in-out;
 }
 
-.flipIn, h1, ul li {
+.flipIn, h1, ul.accordion li {
   animation: flipdown 0.5s ease both;
 }
 
@@ -68,22 +68,20 @@ html {
 
 body {
   margin: 0;
+  font-size: 1.2rem;
 }
 
 footer {
   background-color: #282941;
-  height: 100px;
+  height: 100%;
 }
 
 .center-container {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
+  margin: 0 auto;
 }
 
 .text-container {
   min-height: 0;
-  display: inline-block;
   max-width: 820px;
   padding: 0 20px 50px 20px;
 }
@@ -95,8 +93,6 @@ footer {
   }
 
   body {
-    box-sizing: border-box;
-    transform: translate(0, 0);
     max-width: 100%;
     min-height: 100%;
     margin: 0;
@@ -135,12 +131,51 @@ p {
   z-index: 2;
 }
 
-ul {
+.white-text, .white-text a  {
+  color: white;
+}
+
+ul.plain {
+  list-style: none;
+}
+
+ul.address {
+  padding: 30px;
+}
+
+ul.accordion {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-ul li {
+ul.accordiom li:nth-of-type(1) {   
+  animation-delay: 0.2s;    
+}   
+ul.accordion li:nth-of-type(2) {    
+  animation-delay: 0.4s;   
+}   
+ul.accordion li:nth-of-type(3) {    
+  animation-delay: 0.6s;    
+}
+ul.accordion li:nth-of-type(4) {    
+  animation-delay: 0.8s;    
+}
+ul.accordion li:nth-of-type(5) {    
+  animation-delay: 1.0s;    
+}
+ul.accordion li:nth-of-type(6) {    
+  animation-delay: 1.2s;    
+}
+ul.accordion li:nth-of-type(7) {    
+  animation-delay: 1.4s;    
+}
+ul.accordion li:nth-of-type(8) {    
+  animation-delay: 1.6s;    
+}
+ul.accordion li:nth-of-type(9) {    
+  animation-delay: 1.8s;    
+}
+ul.accordion li {
   position: relative;
   padding: 0;
   margin: 0;
@@ -148,29 +183,29 @@ ul li {
   padding-top: 18px;
   border-top: 1px solid #c2c2c2;
 }
-ul li:last-of-type {
+ul.accordion li:last-of-type {
   padding-bottom: 0;
 }
-ul li i {
+ul.accordion li i {
   position: absolute;
   transform: translate(-11px, 0);
   margin-top: 7px;
   right: 0;
 }
-ul li i:before, ul li i:after {
+ul.accordion li i:before, ul.accordion li i:after {
   content: "";
   position: absolute;
   background-color: #0d92ff;
   width: 3px;
   height: 9px;
 }
-ul li i:before {
+ul.accordion li i:before {
   transform: translate(-2px, 0) rotate(45deg);
 }
-ul li i:after {
+ul.accordion li i:after {
   transform: translate(2px, 0) rotate(-45deg);
 }
-ul li input[type=checkbox] {
+ul.accordion li input[type=checkbox] {
   position: absolute;
   cursor: pointer;
   width: 100%;
@@ -178,16 +213,16 @@ ul li input[type=checkbox] {
   z-index: 1;
   opacity: 0;
 }
-ul li input[type=checkbox]:checked ~ p {
+ul.accordion li input[type=checkbox]:checked ~ p {
   margin-top: 0;
   max-height: 0;
   opacity: 0;
   transform: translate(0, 50%);
 }
-ul li input[type=checkbox]:checked ~ i:before {
+ul.accordion li input[type=checkbox]:checked ~ i:before {
   transform: translate(2px, 0) rotate(45deg);
 }
-ul li input[type=checkbox]:checked ~ i:after {
+ul.accordion li input[type=checkbox]:checked ~ i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
