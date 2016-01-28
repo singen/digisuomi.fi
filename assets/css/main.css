@@ -4,7 +4,7 @@
 
 .video-background {
   background-color: #282941;
-  background-image: url("/assets/img/owls.png");
+  background-image: url("/assets/img/bg.png");
   background-repeat: repeat;
   box-shadow: 0 10px 0 0 #0d92ff inset;
   padding-top: 10px;
@@ -36,9 +36,8 @@
 }
 
 .ingress {
-  font-size: 2.2rem;
-  line-height: 3.2rem;
-  text-align: center;
+  font-size: 2.0rem;
+  line-height: 3.0rem;
   margin: 30px 0;
 }
 
@@ -96,6 +95,10 @@ footer {
     line-height: 2.4rem;
   }
 
+  .ingress h1 {
+    font-size: 1.9rem;
+  }
+
   body {
     max-width: 100%;
     min-height: 100%;
@@ -123,7 +126,7 @@ h2 {
   cursor: pointer;
 }
 
-p {
+ul.accordion p {
   font-size: 1.6rem;
   line-height: 2.2rem;
   position: relative;
