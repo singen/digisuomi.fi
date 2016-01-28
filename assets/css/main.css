@@ -1,3 +1,7 @@
+.print-only {
+  display: none;
+}
+
 .video-background {
   background-color: #282941;
   background-image: url("/assets/img/owls.png");

@@ -1,0 +1,98 @@
+.video-background {
+  display: none;
+}
+
+.ingress {
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #585858;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+footer {
+  display: none;
+}
+
+.center-container {
+  margin: 0 auto;
+}
+
+.text-container {
+  min-height: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  color: #0d92ff;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  display: block;
+  margin: 0 20px 0 0;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin: 8px 0;
+}
+
+i {
+  display: none;
+}
+
+.white-text, .white-text a  {
+  color: white;
+}
+
+ul.plain {
+  list-style: none;
+}
+
+ul.address {
+  padding: 30px;
+}
+
+ul.accordion {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.accordion li {
+  position: relative;
+  padding: 10px 0 4px 0;
+  margin: 0;
+  border-top: 1px solid #c2c2c2;
+}
+ul.accordion li:last-of-type {
+  padding-bottom: 0;
+}
+
+ul.accordion li input[type=checkbox] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
