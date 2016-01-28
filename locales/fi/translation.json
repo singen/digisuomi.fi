@@ -1,0 +1,41 @@
+{
+  "text": {
+    "ingress": "Me suomalaiset olemme luoneet yhteiset pelisäännöt tukemaan kaikkien julkisten palveluiden kehitystä. Siihen ei tarvita valtavia työryhmiä tai isoja hankkeita, vaan pieniä arkisia oivalluksia. Meidän kaikkien näkökulmaa.",
+    "customer-centric": {
+      "topic": "Kehitämme palvelut asiakaslähtöisesti.",
+      "desc": "Palvelut kehitetään kansalaisia, ei virkakoneistoa varten. Toimintatapamme uudistetaan tukemaan asiakaslähtöistä palvelukehitystä."
+    },
+    "no-unnecessary-visit": {
+      "topic": "Poistamme turhan asioinnin.",
+      "desc": "Kansalaisen asiointia suoraviivaistetaan ja tehdään sähköinen palvelu mahdolliseksi ja ensisijaiseksi."
+    },
+    "easy-to-use": {
+      "topic": "Rakennamme helppokäyttöisiä ja turvallisia palveluita.",
+      "desc": "Palveluita voidaan käyttää tietoturvallisesti eri laitteilla, huomioiden kansalaisten ja yritysten erityistarpeet."
+    },
+    "fast-gains": {
+      "topic": "Tuotamme asiakkaalle hyötyä nopeasti.",
+      "desc": "Selvitämme asiakkaalle arvokkaimmat ominaisuudet ja aloitamme palvelukehityksen niistä. Palvelusta saadaan nopeasti palautetta. Aikaa ja rahaa säästyy. Tekemällä ja kokeilemalla opimme."
+    },
+    "emergency-service": {
+      "topic": "Palvelemme myös häiriötilanteissa.",
+      "desc": "Varaudumme häiriö- ja poikkeustilanteisiin sekä viestimme tilanteesta selkeästi."
+    },
+    "enter-once": {
+      "topic": "Pyydämme uutta tietoa vain kerran.",
+      "desc": "Hyödynnämme jo olemassa olevaa tietoa, mikä vähentää kansalaisen ja yrityksen palvelutarvetta."
+    },
+    "reuse": {
+      "topic": "Hyödynnämme jo olemassa olevia julkisia ja yksityisiä sähköisiä palveluita.",
+      "desc":
+    },
+    "open-api": {
+      "topic": "Avaamme tiedon ja rajapinnat yrityksille ja kansalaisille.",
+      "desc": "Lähtökohtaisesti avaamme tiedon ja rajapinnat julkisesti saataville, ellei tiedon saatavuutta ole syytä erikseen rajata. Mahdollistamme tiedon hyödyntämisen uudenlaisten palveluiden kehittämisessä."
+    },
+    "product-ownership": {
+      "topic": "Nimeämme palvelulle ja sen toteutukselle omistajan.",
+      "desc": "Jokaisella palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä."
+    },
+  }
+}

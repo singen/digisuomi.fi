@@ -9,6 +9,24 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" media="screen" href="assets/css/main.css">
   <link rel="stylesheet" media="print" href="assets/css/print.css">
+  <script type="text/javascript" src="assets/js/i18nextXHRBackend.min.js"></script>
+  <script type="text/javascript" src="assets/js/i18nextBrowserLanguageDetector.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.23/i18next.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js"></script>
+  <script>
+    $(function() {
+      i18next.use(i18nextXHRBackend).use(i18nextBrowserLanguageDetector).init({
+        lng: 'fi',
+        detection: {  
+          cookieDomain: 'digisuomi.fi'
+        }
+      }, function(err, t) {
+        i18nextJquery.init(i18next, $);
+        $('.text-container').localize();
+      });
+    })
+  </script>
 </head>
 <body>
 <div class="video-background">
@@ -23,56 +41,56 @@
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Kehitämme palvelut asiakaslähtöisesti.</h2>
-      <p>Palvelut kehitetään kansalaisia, ei virkakoneistoa varten. Toimintatapamme uudistetaan tukemaan asiakaslähtöistä palvelukehitystä.</p>
+      <h2 data-i18n="text.customer-centric.topic">Kehitämme palvelut asiakaslähtöisesti.</h2>
+      <p  data-i18n="text.customer-centric.desc">Palvelut kehitetään kansalaisia, ei virkakoneistoa varten. Toimintatapamme uudistetaan tukemaan asiakaslähtöistä palvelukehitystä.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Poistamme turhan asioinnin.</h2>
-      <p>Kansalaisen asiointia suoraviivaistetaan ja tehdään sähköinen palvelu mahdolliseksi ja ensisijaiseksi.</p>
+      <h2 data-i18n="text.no-unnecessary-visit.topic">Poistamme turhan asioinnin.</h2>
+      <p  data-i18n="text.no-unnecessary-visit.desc">Kansalaisen asiointia suoraviivaistetaan ja tehdään sähköinen palvelu mahdolliseksi ja ensisijaiseksi.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Rakennamme helppokäyttöisiä ja turvallisia palveluita.</h2>
-      <p>Palveluita voidaan käyttää tietoturvallisesti eri laitteilla, huomioiden kansalaisten ja yritysten erityistarpeet.</p>
+      <h2 data-i18n="text.easy-to-use.topic">Rakennamme helppokäyttöisiä ja turvallisia palveluita.</h2>
+      <p  data-i18n="text.easy-to-use.desc">Palveluita voidaan käyttää tietoturvallisesti eri laitteilla, huomioiden kansalaisten ja yritysten erityistarpeet.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Tuotamme asiakkaalle hyötyä nopeasti.</h2>
-      <p>Selvitämme asiakkaalle arvokkaimmat ominaisuudet ja aloitamme palvelukehityksen niistä. Palvelusta saadaan nopeasti palautetta. Aikaa ja rahaa säästyy. Tekemällä ja kokeilemalla opimme.</p>
+      <h2 data-i18n="text.fast-gains.topic">Tuotamme asiakkaalle hyötyä nopeasti.</h2>
+      <p  data-i18n="text.fast-gains.desc">Selvitämme asiakkaalle arvokkaimmat ominaisuudet ja aloitamme palvelukehityksen niistä. Palvelusta saadaan nopeasti palautetta. Aikaa ja rahaa säästyy. Tekemällä ja kokeilemalla opimme.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Palvelemme myös häiriötilanteissa.</h2>
-      <p>Varaudumme häiriö- ja poikkeustilanteisiin sekä viestimme tilanteesta selkeästi.</p>
+      <h2 data-i18n="text.emergency-service.topic">Palvelemme myös häiriötilanteissa.</h2>
+      <p  data-i18n="text.emergency-service.desc">Varaudumme häiriö- ja poikkeustilanteisiin sekä viestimme tilanteesta selkeästi.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Pyydämme uutta tietoa vain kerran.</h2>
-      <p>Hyödynnämme jo olemassa olevaa tietoa, mikä vähentää kansalaisen ja yrityksen palvelutarvetta.</p>
+      <h2 data-i18n="text.enter-once.topic">Pyydämme uutta tietoa vain kerran.</h2>
+      <p  data-i18n="text.enter-once.desc">Hyödynnämme jo olemassa olevaa tietoa, mikä vähentää kansalaisen ja yrityksen palvelutarvetta.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Hyödynnämme jo olemassa olevia julkisia ja yksityisiä sähköisiä palveluita.</h2>
-      <p>Ei keksitä pyörää uudestaan. Teemme kustannustehokkaampaa palvelukehittämistä. Käytämme muun muassa Kansallista Palveluarkkitehtuuria (KaPA). Varmistamme, että palvelumme on muiden hyödynnettävissä.</p>
+      <h2 data-i18n="text.reuse.topic">Hyödynnämme jo olemassa olevia julkisia ja yksityisiä sähköisiä palveluita.</h2>
+      <p  data-i18n="text.reuse.desc">Ei keksitä pyörää uudestaan. Teemme kustannustehokkaampaa palvelukehittämistä. Käytämme muun muassa Kansallista Palveluarkkitehtuuria (KaPA). Varmistamme, että palvelumme on muiden hyödynnettävissä.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>Avaamme tiedon ja rajapinnat yrityksille ja kansalaisille.</h2>
-      <p>Lähtökohtaisesti avaamme tiedon ja rajapinnat julkisesti saataville, ellei tiedon saatavuutta ole syytä erikseen rajata. Mahdollistamme tiedon hyödyntämisen uudenlaisten palveluiden kehittämisessä.</p>
+      <h2 data-i18n="text.open-api.topic">Avaamme tiedon ja rajapinnat yrityksille ja kansalaisille.</h2>
+      <p  data-i18n="text.open-api.desc">Lähtökohtaisesti avaamme tiedon ja rajapinnat julkisesti saataville, ellei tiedon saatavuutta ole syytä erikseen rajata. Mahdollistamme tiedon hyödyntämisen uudenlaisten palveluiden kehittämisessä.</p>
     </li>
     <li>
       <input type="checkbox" checked />
       <i></i>
-      <h2>"Nimeämme palvelulle ja sen toteutukselle omistajan.</h2>
-      <p>Jokaisella palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä.</p>
+      <h2 data-i18n="text.product-ownership.topic">Nimeämme palvelulle ja sen toteutukselle omistajan.</h2>
+      <p  data-i18n="text.product-ownership.desc">Jokaisella palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä.</p>
     </li>
   </ul>
   </div>
