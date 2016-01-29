@@ -41,6 +41,10 @@
   margin: 30px 0;
 }
 
+.ingress h1 {
+  text-align: center;
+}
+
 .transition, p, ul.accordion li i:before, ul.accordion li i:after {
   transition: all 0.25s ease-in-out;
 }

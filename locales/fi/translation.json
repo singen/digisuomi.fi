@@ -1,41 +1,45 @@
 {
   "text": {
-    "ingress": "Me suomalaiset olemme luoneet yhteiset pelisäännöt tukemaan kaikkien julkisten palveluiden kehitystä. Siihen ei tarvita valtavia työryhmiä tai isoja hankkeita, vaan pieniä arkisia oivalluksia. Meidän kaikkien näkökulmaa.",
+    "topic": "Digitalisoinnin periaatteet",
+    "ingress": {
+      "topic": "Tarina paremmin toimivasta Suomesta",
+      "text": "Suomen seuraavat tarinat kerrotaan siitä, kuinka julkinen sektori tuli lähemmäksi kansalaista. Tulevaisuuden julkinen sektori tarjoaa asiakkailleen nerokkaita sähköisiä palveluja. Suomalaiset pohtivat syksyllä 2015, mitä he toivovat sähköiseltä asioinnilta. Syntyi yhdeksän digiperiaatetta, jotka auttavat kehittämään julkista palvelukehitystä."
+    },
     "customer-centric": {
       "topic": "Kehitämme palvelut asiakaslähtöisesti.",
-      "desc": "Palvelut kehitetään kansalaisia, ei virkakoneistoa varten. Toimintatapamme uudistetaan tukemaan asiakaslähtöistä palvelukehitystä."
+      "desc": "Julkiset palvelut ovat olemassa ennen kaikkea palvelun käyttäjää eli asiakasta varten. Tutkimme, mitä käyttäjät haluavat saada palvelulla aikaiseksi."
     },
     "no-unnecessary-visit": {
       "topic": "Poistamme turhan asioinnin.",
-      "desc": "Kansalaisen asiointia suoraviivaistetaan ja tehdään sähköinen palvelu mahdolliseksi ja ensisijaiseksi."
+      "desc": "Kansalaisen asiointia suoraviivaistetaan ja helpotetaan. Asiakkaalla on ensisijaisesti mahdollisuus käyttää sähköistä palvelua."
     },
     "easy-to-use": {
       "topic": "Rakennamme helppokäyttöisiä ja turvallisia palveluita.",
-      "desc": "Palveluita voidaan käyttää tietoturvallisesti eri laitteilla, huomioiden kansalaisten ja yritysten erityistarpeet."
+      "desc": "Palveluita voidaan käyttää näppärästi ja tietoturvallisesti eri laitteilla. Huomioidaan kansalaisten ja yritysten erityistarpeet."
     },
     "fast-gains": {
       "topic": "Tuotamme asiakkaalle hyötyä nopeasti.",
-      "desc": "Selvitämme asiakkaalle arvokkaimmat ominaisuudet ja aloitamme palvelukehityksen niistä. Palvelusta saadaan nopeasti palautetta. Aikaa ja rahaa säästyy. Tekemällä ja kokeilemalla opimme."
+      "desc": "Selvitämme, mitkä ovat asiakkaalle arvokkaimmat ominaisuudet ja aloitamme palvelukehityksen niistä. Palvelusta saadaan nopeasti palautetta. Aikaa ja rahaa säästyy. Tekemällä ja kokeilemalla opimme."
     },
     "emergency-service": {
       "topic": "Palvelemme myös häiriötilanteissa.",
-      "desc": "Varaudumme häiriö- ja poikkeustilanteisiin sekä viestimme tilanteesta selkeästi."
+      "desc": "Varaudumme häiriö- ja poikkeustilanteisiin. Viestimme tällaisesta tilanteesta selkeästi."
     },
     "enter-once": {
       "topic": "Pyydämme uutta tietoa vain kerran.",
-      "desc": "Hyödynnämme jo olemassa olevaa tietoa, mikä vähentää kansalaisen ja yrityksen palvelutarvetta."
+      "desc": "Käytämme jo olemassa olevaa tietoa. Näin vaivaamme kansalaista mahdollisimman vähän."
     },
     "reuse": {
       "topic": "Hyödynnämme jo olemassa olevia julkisia ja yksityisiä sähköisiä palveluita.",
-      "desc":
+      "desc": "Ei keksitä samaa pyörää uudestaan. Teemme kustannustehokkaampaa palvelukehitystä. Käytämme muun muassa Kansallista Palveluarkkitehtuuria (KaPA). Varmistamme, että palvelumme on muiden hyödynnettävissä."
     },
     "open-api": {
       "topic": "Avaamme tiedon ja rajapinnat yrityksille ja kansalaisille.",
-      "desc": "Lähtökohtaisesti avaamme tiedon ja rajapinnat julkisesti saataville, ellei tiedon saatavuutta ole syytä erikseen rajata. Mahdollistamme tiedon hyödyntämisen uudenlaisten palveluiden kehittämisessä."
+      "desc": "Lähtökohtaisesti avaamme tiedon ja rajapinnat julkisesti saataville, ellei saatavuutta ole syytä erikseen rajata. Annamme tiedon hyödynnettäväksi uudenlaisten palveluiden kehittämiseen. Avoimuus koituu kaikkien eduksi!"
     },
     "product-ownership": {
       "topic": "Nimeämme palvelulle ja sen toteutukselle omistajan.",
-      "desc": "Jokaisella palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä."
-    },
+      "desc": "Jokaisen palvelun takana on lopulta ihminen. Palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä."
+    }
   }
 }
