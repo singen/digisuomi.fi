@@ -33,6 +33,26 @@ footer {
   padding: 20px;
 }
 
+.list-item-container {
+  position: relative;
+}
+
+.list-item-left {
+  width: 50px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.list-item-left img {
+  height: 50px;
+  width: 50px;
+}
+
+.list-item-right {
+  margin-left: 70px;
+}
+
 h1 {
   font-size: 2.4rem;
   line-height: 2rem;
@@ -75,21 +95,13 @@ ul.accordion {
   list-style: none;
   padding: 0;
   margin: 0;
+  border-top: 1px solid #c2c2c2;
 }
 ul.accordion li {
-  position: relative;
   padding: 10px 0 4px 0;
   margin: 0;
-  border-top: 1px solid #c2c2c2;
+  min-height: 55px;
 }
 ul.accordion li:last-of-type {
   padding-bottom: 0;
-}
-
-ul.accordion li input[type=checkbox] {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
 }

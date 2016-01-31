@@ -4,18 +4,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Digitalisoinnin periaatteet</title>
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" media="screen" href="assets/css/main.css">
   <link rel="stylesheet" media="print" href="assets/css/print.css">
   <script type="text/javascript" src="assets/js/i18nextXHRBackend.min.js"></script>
   <script type="text/javascript" src="assets/js/i18nextBrowserLanguageDetector.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.23/i18next.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js"></script>
+  <script type="text/javascript" src="//f.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/i18next/2.0.23/i18next.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js"></script>
   <script>
     $(function() {
       i18next.use(i18nextXHRBackend).use(i18nextBrowserLanguageDetector).init({
@@ -27,77 +28,140 @@
         i18nextJquery.init(i18next, $);
         $('.text-container').localize();
       });
+      var iframe = document.getElementById('video');
+      var player = $f(iframe);
+      var playButton = $("#play-button").click(function() {
+        document.getElementById('bg-video').pause();
+        $("#bg-video-container").fadeOut("slow")
+        playButton.fadeOut("slow")
+        $("#video-container").fadeIn("slow", function() {
+          player.api("play")
+        })
+
+      })
+
     });
   </script>
 </head>
 <body>
   <div class="video-background">
-    <div class="video-container center-container">
-      <div class="embed-container"><iframe src="http://player.vimeo.com/video/87110435" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+    <div id="bg-video-container" class="bg-video-container">
+      <video autoplay loop muted id="bg-video" class="bg fillWidth">
+        <source src="assets/video/VM_Digi_EDIT_27.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="play-button" class="play-button">Näytä video</div>
+    <div id="video-container" class="video-container center-container">
+      <div class="embed-container"><iframe id="video" src="http://player.vimeo.com/video/87110435?api=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
     </div>
   </div>
-<div class="text-container center-container">
-  <h1 class="print-only" data-i18n="text.topic"></h1>
-  <div class="ingress">
-    <h1 data-i18n="text.ingress.topic"></h1>
-    <p  data-i18n="text.ingress.text"></p>
-  </div>
-  <ul class="accordion">
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.customer-centric.topic"></h2>
-      <p  data-i18n="text.customer-centric.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.no-unnecessary-visit.topic"></h2>
-      <p  data-i18n="text.no-unnecessary-visit.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.easy-to-use.topic"></h2>
-      <p  data-i18n="text.easy-to-use.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.fast-gains.topic"></h2>
-      <p  data-i18n="text.fast-gains.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.emergency-service.topic"></h2>
-      <p  data-i18n="text.emergency-service.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.enter-once.topic"></h2>
-      <p  data-i18n="text.enter-once.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.reuse.topic"></h2>
-      <p  data-i18n="text.reuse.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.open-api.topic"></h2>
-      <p  data-i18n="text.open-api.desc"></p>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2 data-i18n="text.product-ownership.topic"></h2>
-      <p  data-i18n="text.product-ownership.desc"></p>
-    </li>
-  </ul>
+  <div class="text-container center-container">
+    <h1 class="print-only" data-i18n="text.topic"></h1>
+    <div class="ingress">
+      <h1 data-i18n="text.ingress.topic"></h1>
+      <p  data-i18n="text.ingress.text"></p>
+    </div>
+    <ul class="accordion">
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.customer-centric.topic"></h2>
+            <p  data-i18n="text.customer-centric.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.no-unnecessary-visit.topic"></h2>
+            <p  data-i18n="text.no-unnecessary-visit.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.easy-to-use.topic"></h2>
+            <p  data-i18n="text.easy-to-use.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.fast-gains.topic"></h2>
+            <p  data-i18n="text.fast-gains.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.emergency-service.topic"></h2>
+            <p  data-i18n="text.emergency-service.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.enter-once.topic"></h2>
+            <p  data-i18n="text.enter-once.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.reuse.topic"></h2>
+            <p  data-i18n="text.reuse.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.open-api.topic"></h2>
+            <p  data-i18n="text.open-api.desc"></p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="list-item-container">
+          <div class="list-item-left">
+            <img src="assets/img/icon-test.png">
+          </div>
+          <div class="list-item-right">
+            <h2 data-i18n="text.product-ownership.topic"></h2>
+            <p  data-i18n="text.product-ownership.desc"></p>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
   <footer>
     <ul class="address plain white-text">
