@@ -19,6 +19,58 @@ footer {
   height: 100%;
 }
 
+h1, h2 {
+  color: #0d92ff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  margin: 0 20px 0 0;
+}
+
+ul.accordion p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin-top: 14px;
+}
+
+.white-text, .white-text a  {
+  color: white;
+}
+
+ul.plain {
+  list-style: none;
+}
+
+ul.address {
+  padding: 30px;
+}
+
+ul.accordion {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #c2c2c2;
+}
+
+ul.accordion li {
+  position: relative;
+  padding: 18px 0 4px 0;
+  margin: 0;
+}
+
+ul.accordion li:last-of-type {
+  padding-bottom: 0;
+}
+
 video.bg {
   position: absolute;
   z-index: 0;
@@ -136,56 +188,9 @@ video.bg.fillWidth {
   margin-left: 100px;
 }
 
-h1, h2 {
-  color: #0d92ff;
-}
-
-h1 {
-  font-size: 2.5rem;
-  line-height: 100%;
-  font-weight: 400;
-}
-
-h2 {
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  font-weight: 400;
-  margin: 0 20px 0 0;
-}
-
-ul.accordion p {
-  font-size: 1.6rem;
-  line-height: 2.2rem;
-  margin-top: 14px;
-}
-
-.white-text, .white-text a  {
-  color: white;
-}
-
-ul.plain {
-  list-style: none;
-}
-
-ul.address {
-  padding: 30px;
-}
-
-ul.accordion {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  border-top: 1px solid #c2c2c2;
-}
-
-ul.accordion li {
-  position: relative;
-  padding: 18px 0 4px 0;
-  margin: 0;
-}
-
-ul.accordion li:last-of-type {
-  padding-bottom: 0;
+.error-topic {
+  margin-top: 40px;
+  text-align: center;
 }
 
 @media (max-width: 720px) {

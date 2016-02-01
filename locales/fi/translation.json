@@ -41,5 +41,9 @@
       "topic": "Nimeämme palvelulle ja sen toteutukselle omistajan.",
       "desc": "Jokaisen palvelun takana on lopulta ihminen. Palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä."
     }
+  },
+  "error": {
+    "topic": "Jotain meni pieleen",
+    "text": "Tarkista selaimesi asetukset ja tyhjää välimuisti ja koeta sitten uudestaan tästä:"
   }
 }

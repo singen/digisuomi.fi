@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Digitalisoinnin periaatteet</title>
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" media="screen" href="assets/css/main.css">
+  <script type="text/javascript" src="assets/js/i18nextXHRBackend.min.js"></script>
+  <script type="text/javascript" src="assets/js/i18nextBrowserLanguageDetector.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/i18next/2.0.23/i18next.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js"></script>
+  <script>
+    $(function() {
+      i18next.use(i18nextXHRBackend).use(i18nextBrowserLanguageDetector).init({
+        lng: 'fi',
+        detection: {  
+          cookieDomain: 'digisuomi.fi'
+        }
+      }, function(err, t) {
+        i18nextJquery.init(i18next, $);
+        $('.text-container').localize();
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="text-container center-container">
+    <h1 data-i18n="error.topic" class="error-topic"></h1>
+    <div class="ingress">
+      <p data-i18n="error.text"></p>
+      <a href="http://digisuomi.fi">digisuomi.fi</a>
+    </div>
+</body>
+</html>
