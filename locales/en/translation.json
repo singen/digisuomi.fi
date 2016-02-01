@@ -1,0 +1,49 @@
+{
+  "text": {
+    "topic": "Digitalisoinnin periaatteet",
+    "ingress": {
+      "topic": "Tarina paremmin toimivasta Suomesta",
+      "text": "Suomen seuraavat tarinat kerrotaan siitä, kuinka julkinen sektori tuli lähemmäksi kansalaista. Tulevaisuuden julkinen sektori tarjoaa asiakkailleen nerokkaita sähköisiä palveluja. Suomalaiset pohtivat syksyllä 2015, mitä he toivovat sähköiseltä asioinnilta. Syntyi yhdeksän digiperiaatetta, jotka auttavat kehittämään julkista palvelukehitystä."
+    },
+    "customer-centric": {
+      "topic": "Our services are developed in a customer-oriented manner.",
+      "desc": "Julkiset palvelut ovat olemassa ennen kaikkea palvelun käyttäjää eli asiakasta varten. Tutkimme, mitä käyttäjät haluavat saada palvelulla aikaiseksi."
+    },
+    "no-unnecessary-visit": {
+      "topic": "We will eliminate unnecessary red tape.",
+      "desc": "Kansalaisen asiointia suoraviivaistetaan ja helpotetaan. Asiakkaalla on ensisijaisesti mahdollisuus käyttää sähköistä palvelua."
+    },
+    "easy-to-use": {
+      "topic": "We will build easy-to-use, accessible and secure services.",
+      "desc": "Palveluita voidaan käyttää näppärästi ja tietoturvallisesti eri laitteilla. Huomioidaan kansalaisten ja yritysten erityistarpeet."
+    },
+    "fast-gains": {
+      "topic": "We will produce benefits for our customers as quickly as possible.",
+      "desc": "Selvitämme, mitkä ovat asiakkaalle arvokkaimmat ominaisuudet ja aloitamme palvelukehityksen niistä. Palvelusta saadaan nopeasti palautetta. Aikaa ja rahaa säästyy. Tekemällä ja kokeilemalla opimme."
+    },
+    "emergency-service": {
+      "topic": "We will also serve during disruptions.",
+      "desc": "Varaudumme häiriö- ja poikkeustilanteisiin. Viestimme tällaisesta tilanteesta selkeästi."
+    },
+    "enter-once": {
+      "topic": "We will ask for new information only once.",
+      "desc": "Käytämme jo olemassa olevaa tietoa. Näin vaivaamme kansalaista mahdollisimman vähän."
+    },
+    "reuse": {
+      "topic": "We will make use of existing public and private online services.",
+      "desc": "Ei keksitä samaa pyörää uudestaan. Teemme kustannustehokkaampaa palvelukehitystä. Käytämme muun muassa Kansallista Palveluarkkitehtuuria (KaPA). Varmistamme, että palvelumme on muiden hyödynnettävissä."
+    },
+    "open-api": {
+      "topic": "We will make information and APIs open to all companies and citizens.",
+      "desc": "Lähtökohtaisesti avaamme tiedon ja rajapinnat julkisesti saataville, ellei saatavuutta ole syytä erikseen rajata. Annamme tiedon hyödynnettäväksi uudenlaisten palveluiden kehittämiseen. Avoimuus koituu kaikkien eduksi!"
+    },
+    "product-ownership": {
+      "topic": "We will designate the owner of each service and its implementation.",
+      "desc": "Jokaisen palvelun takana on lopulta ihminen. Palvelulla on koko sen elinkaaren ajan nimetty omistaja, joka vastaa palvelun toiminnasta ja mahdollistaa vuoropuhelun eri tahojen välillä."
+    }
+  },
+  "error": {
+    "topic": "Jotain meni pieleen",
+    "text": "Tarkista selaimesi asetukset ja tyhjää välimuisti ja koeta sitten uudestaan tästä:"
+  }
+}
