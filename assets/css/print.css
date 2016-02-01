@@ -55,24 +55,24 @@ footer {
 
 h1 {
   font-size: 2.4rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 20px;
   font-weight: 400;
   text-align: center;
 }
 
 h2 {
   color: #0d92ff;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.0rem;
   font-weight: 400;
-  display: block;
   margin: 0 20px 0 0;
 }
 
 p {
   font-size: 1.4rem;
   line-height: 1.8rem;
-  margin: 8px 0;
+  margin: 5px 0;
 }
 
 i {
@@ -93,7 +93,7 @@ ul.address {
 
 ul.accordion {
   list-style: none;
-  padding: 0;
+  padding: 18px 0 0 0;
   margin: 0;
   border-top: 1px solid #c2c2c2;
 }
