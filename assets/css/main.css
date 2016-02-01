@@ -217,7 +217,7 @@ video.bg.fillWidth {
     display: initial;
   }
 
-  .play-button {
+  #play-button {
     display: none;
   }
 
