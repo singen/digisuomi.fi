@@ -2,8 +2,9 @@
   "text": {
     "topic": "Digitalisoinnin periaatteet",
     "ingress": {
-      "topic": "Tarina paremmin toimivasta Suomesta",
-      "text": "Suomen seuraavat tarinat kerrotaan siitä, kuinka julkinen sektori tuli lähemmäksi kansalaista. Tulevaisuuden julkinen sektori tarjoaa asiakkailleen nerokkaita sähköisiä palveluja. Suomalaiset pohtivat syksyllä 2015, mitä he toivovat sähköiseltä asioinnilta. Syntyi yhdeksän digiperiaatetta, jotka auttavat kehittämään julkista palvelukehitystä."
+      "topic": "A tale about a country that works smarter",
+      "text-1": "Suomen seuraavat tarinat kerrotaan siitä, kuinka julkinen sektori tuli lähemmäksi kansalaista. Tulevaisuuden Suomessa julkinen sektori tarjoaa asiakkailleen nerokkaita sähköisiä palveluja. Nykyaikaistamalla asiointipalveluja helpotetaan kaikkien elämää ja säästetään veronmaksajien rahoja.",
+      "text-2": "Suomalaiset pohtivat syksyllä 2015, mitä he toivovat sähköiseltä asioinnilta. Syntyi yhdeksän digiperiaatetta, jotka auttavat julkishallinnossa työskenteleviä palvelukehityksessä."
     },
     "customer-centric": {
       "topic": "Our services are developed in a customer-oriented manner.",
