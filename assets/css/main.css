@@ -30,10 +30,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 2.4rem;
   font-weight: 400;
-  margin: 0 20px 0 0;
 }
 
 ul.accordion p {
@@ -65,6 +64,10 @@ ul.accordion li {
   position: relative;
   padding: 18px 0 4px 0;
   margin: 0;
+}
+
+ul.accordion li h2 {
+  margin: 0 20px 0 0;
 }
 
 ul.accordion li:last-of-type {
@@ -210,11 +213,7 @@ html.no-video video {
 @media (max-width: 670px) {
   .ingress p {
     font-size: 1.5rem;
-    line-height: 2.4rem;
-  }
-
-  .ingress h1 {
-    font-size: 1.9rem;
+    line-height: 1.5em;
   }
 
   .bg-video-container {
@@ -233,10 +232,27 @@ html.no-video video {
     height: 100%;
   }
 
+  .list-item-left {
+    width: 50px;
+  }
+
+  .list-item-left img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .list-item-right {
+    margin-left: 70px;
+  }
+
   body {
     max-width: 100%;
     min-height: 100%;
     margin: 0;
     left: 0;
+  }
+
+  html {
+    font-size: 55%;
   }
 }
