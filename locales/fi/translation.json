@@ -45,5 +45,9 @@
   "error": {
     "topic": "Jotain meni pieleen",
     "text": "Tarkista selaimesi asetukset ja tyhjää välimuisti ja koeta sitten uudestaan tästä:"
+  },
+  "update": {
+    "topic": "Selaimesi on vanhentunut",
+    "text": "Tarvitset uudemman selaimen jotta digisuomi.fi sivusto toimii parhaalla mahdollisella tavalla. Tässä linkki josta voit saada apua selaimen päivittämiseen."
   }
 }

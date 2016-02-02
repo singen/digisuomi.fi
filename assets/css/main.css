@@ -79,6 +79,10 @@ video.bg.fillWidth {
   width: 100%;
 }
 
+html.no-video video {
+  display: none;
+}
+
 .print-only {
   display: none;
 }
