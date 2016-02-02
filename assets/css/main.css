@@ -121,6 +121,12 @@ html.no-video video {
   width: 220px;
 }
 
+#twitter-button {
+  margin-top: 25px;
+  width: 220px;
+  text-decoration: none;
+}
+
 #facebook-button {
   margin-top: 25px;
   width: 220px;
