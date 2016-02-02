@@ -161,9 +161,13 @@ html.no-video video {
 }
 
 .ingress {
-  font-size: 2.0rem;
-  line-height: 3.0rem;
-  margin: 45px 0;
+  margin: 37px 0;
+}
+
+.ingress p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin: 8px 0;
 }
 
 .center-container {
@@ -204,7 +208,7 @@ html.no-video video {
 }
 
 @media (max-width: 670px) {
-  .ingress {
+  .ingress p {
     font-size: 1.5rem;
     line-height: 2.4rem;
   }
