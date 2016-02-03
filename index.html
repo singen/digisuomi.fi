@@ -39,7 +39,7 @@
   </script>
   <script type="text/javascript">
     if(!Modernizr.mediaqueries && !Modernizr.cssremunit) {
-      window.location.href = '/update.html'
+      window.location.href = '/update.html';
     }
     $(function() {
       i18next.use(i18nextXHRBackend).use(i18nextBrowserLanguageDetector).init({
@@ -55,19 +55,19 @@
       var player = $f(iframe);
       var playButton = $("#play-button").click(function() {
         document.getElementById('bg-video').pause();
-        $("#bg-video-container").fadeOut("slow")
-        playButton.fadeOut("slow")
+        $("#bg-video-container").fadeOut("slow");
+        playButton.fadeOut("slow");
         $("#video-container").fadeIn("slow", function() {
-          player.api("play")
+          player.api("play");
         })
         ga('send', 'event', 'Videos', 'play', 'Valttikortit');
         return false
-      })
+      });
       var printButton = $("#print-button").click(function() {
-        window.print()
+        window.print();
         ga('send', 'event', 'Other', 'print', 'Tulosta periaatteet');
         return false
-      })
+      });
     });
   </script>
 </head>
