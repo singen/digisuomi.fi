@@ -68,6 +68,14 @@
         ga('send', 'event', 'Other', 'print', 'Tulosta periaatteet');
         return false
       });
+      var fbShareButton = $("#facebook-button").click(function() {
+        ga('send', 'event', 'Share', 'facebook', 'Jaa facebookissa');
+        return true
+      });
+      var twitterShareButton = $("#twitter-button").click(function() {
+        ga('send', 'event', 'Share', 'twitter', 'Jaa twitterissä');
+        return true
+      });
     });
   </script>
 </head>
